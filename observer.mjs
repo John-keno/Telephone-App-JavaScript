@@ -40,6 +40,6 @@ export class DisplayPhoneNumberObserver extends Observer {
 
 export class DialingPhoneNumberObserver extends Observer {
 	update(phoneNumber) {
-		console.log(`Now Dialling 2347023232`);
+		console.log(`Now Dialling ${phoneNumber}`);
 	}
 }
